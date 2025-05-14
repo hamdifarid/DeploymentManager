@@ -1,0 +1,85 @@
+# Build results
+bin/
+obj/
+out/
+
+# Rider / VS Code / VS for Mac / VS
+.idea/
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ASP.NET Core specific
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Logs
+*.log
+logs/
+
+# Entity Framework
+Migrations/*Snapshot.cs
+
+# Compiled DLLs and pdbs
+*.dll
+*.pdb
+*.exe
+
+# Package outputs
+*.nupkg
+*.snupkg
+
+# ASP.NET secrets
+secrets.json
+
+# Dotnet CLI specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+publish/
+*.publish.xml
+
+# User-specific files
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# dotenv files (if used for secrets)
+.env
+.env.*
+
+# JetBrains Rider cache
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Test Results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+
+# Node modules (if using frontend in wwwroot or similar)
+node_modules/
+
+# Optional: ignore database files if local DB used
+*.mdf
+*.ldf
+
+# Optional: ignore generated documentation
+*.docfx
+
+# Optional: ignore temporary files from Azure deployments
+.scm/
